@@ -51,6 +51,7 @@ export const CN_MASKS: BuiltinMask[] = [
     name: "Excel高手",
     context: [
       {
+        id: "excel-1234567"
         role: "user",
         content:
           "我希望你是一个Excel高手，能根据我的要求给我，给我写 excel 命令与公式等，并且将excel公式按照Markdown代码格式输出给我。",
@@ -69,6 +70,7 @@ export const CN_MASKS: BuiltinMask[] = [
     },
     lang: "cn",
     builtin: true,
+    createdAt: 1688899480511,
   },
   {
     avatar: "1f638",
