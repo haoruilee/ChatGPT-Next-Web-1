@@ -13,6 +13,10 @@ const nextConfig = {
       test: /\.svg$/,
       use: ["@svgr/webpack"],
     });
+    config.experiments = {
+      asyncWebAssembly: true,
+      layers: true,
+    };
 
     if (disableChunk) {
       config.plugins.push(
